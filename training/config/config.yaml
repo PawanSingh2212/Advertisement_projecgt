@@ -51,8 +51,3 @@ model_evaluation:
   metric_file: artifacts/model_evaluation/metrics
   STATUS_FILE: artifacts/model_evaluation/status.txt
 
-
-image_processing:
-  root_dir: artifacts/image_processing
-  data_dir: artifacts/data_ingestion/fabric_data
-  STATUS_FILE: artifacts/image_processing/status.txt

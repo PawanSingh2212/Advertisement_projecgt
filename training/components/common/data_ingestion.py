@@ -10,6 +10,7 @@ from training.configuration_manager.configuration import ConfigurationManager
 class DataIngestion:
     def __init__(self, config):
         try:
+            info_logger.info("Data Validation Component started")
             self.config = config
             # Ensure the data directory exists
             if not os.path.exists(self.config.data_dir):
